@@ -1,6 +1,7 @@
 # Changelog
 
 ### master
+- add update verbose output from PR [#179](https://github.com/tmux-plugins/tpm/pull/179)
 - bug: delete `$tpm_plugins_variable_name` and using command,
 this show double output with `_tmux_conf_contents` function.
 - bug: fix the `clean_plugins` function and delete too many slashes, `TMUX_PLUGIN_MANAGER_PATH` default is set to `/` at the path end.

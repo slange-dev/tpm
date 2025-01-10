@@ -21,7 +21,9 @@ pull_changes() {
 	local plugin="$1"
 	local plugin_path="$(plugin_path_helper "$plugin")"
 	cd "$plugin_path" &&
-		GIT_TERMINAL_PROMPT=0 git pull &&
+		GIT_TERMINAL_PROMPT=0 git fetch &&
+		GIT_TERMINAL_PROMPT=0 git log --pretty="%as %h %cr %s" ..origin/master &&
+		GIT_TERMINAL_PROMPT=0 git pull > /dev/null 2>&1 &&
 		GIT_TERMINAL_PROMPT=0 git submodule update --init --recursive
 }
 
