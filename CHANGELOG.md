@@ -1,6 +1,7 @@
 # Changelog
 
 ### master
+- add clashes with git config pull.rebase when set to ineractive from PR [#212](https://github.com/tmux-plugins/tpm/pull/212)
 
 ### v3.1.0, 2023-01-03
 - upgrade to new version of `tmux-test`
