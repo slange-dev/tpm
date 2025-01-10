@@ -1,6 +1,7 @@
 # Changelog
 
 ### master
+- bug: fix the `clean_plugins` function and delete too many slashes, `TMUX_PLUGIN_MANAGER_PATH` default is set to `/` at the path end.
 - bug: in `bindings\clean_plugins` when using `>/dev/null 2>&1` no output on screen. Fix delete the command.
 - change location of `verify_tpm_path_permissions` function from `scripts/install_plugins.sh` to `scripts/helper/utility.sh`.
   Reason: it is a helper funcction, not a install function.
