@@ -1,6 +1,8 @@
 # Changelog
 
 ### master
+- change location of `verify_tpm_path_permissions` function from `scripts/install_plugins.sh` to `scripts/helper/utility.sh`.
+  Reason: it is a helper funcction, not a install function.
 - bug: add missing shebang in some files.
 - bug: in `bindings\install_plugins` when using `>/dev/null 2>&1` no output on screen. Fix delete the command.
 - bug: when using `vi` copy mode, Enter does not quit screen after tpm
