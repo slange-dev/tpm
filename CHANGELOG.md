@@ -1,6 +1,7 @@
 # Changelog
 
 ### master
+- add update verbose output from PR [#179](https://github.com/tmux-plugins/tpm/pull/179)
 
 ### v3.1.0, 2023-01-03
 - upgrade to new version of `tmux-test`
