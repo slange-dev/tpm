@@ -1,6 +1,7 @@
 # Changelog
 
 ### master
+- add clashes with git config pull.rebase when set to ineractive from PR [#212](https://github.com/tmux-plugins/tpm/pull/212)
 - add update verbose output from PR [#179](https://github.com/tmux-plugins/tpm/pull/179)
 - bug: delete `$tpm_plugins_variable_name` and using command,
 this show double output with `_tmux_conf_contents` function.
