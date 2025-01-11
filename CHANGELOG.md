@@ -1,6 +1,7 @@
 # Changelog
 
 ### master
+- add pull request template for GitHub
 - Add GitHub workflow "codacy_scan.yml", to analyse the code quality. 
 - if you user directory have spaces in name, tpm will not work and return a 127 error code
 - add clashes with git config pull.rebase when set to ineractive from PR [#212](https://github.com/tmux-plugins/tpm/pull/212)
