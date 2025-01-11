@@ -1,6 +1,7 @@
 # Changelog
 
 ### master
+- add pull request template for GitHub
 
 ### v3.1.0, 2023-01-03
 - upgrade to new version of `tmux-test`
