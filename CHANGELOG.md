@@ -1,6 +1,7 @@
 # Changelog
 
 ### master
+- if you user directory have spaces in name, tpm will not work and return a 127 error code
 
 ### v3.1.0, 2023-01-03
 - upgrade to new version of `tmux-test`
