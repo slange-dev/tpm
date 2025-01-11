@@ -1,6 +1,7 @@
 # Changelog
 
 ### master
+- if you user directory have spaces in name, tpm will not work and return a 127 error code
 - add clashes with git config pull.rebase when set to ineractive from PR [#212](https://github.com/tmux-plugins/tpm/pull/212)
 - add update verbose output from PR [#179](https://github.com/tmux-plugins/tpm/pull/179)
 - bug: delete `$tpm_plugins_variable_name` and using command,
