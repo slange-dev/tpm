@@ -1,6 +1,7 @@
 # Tmux Plugin Manager
 
 [![Build Status](https://travis-ci.org/tmux-plugins/tpm.svg?branch=master)](https://travis-ci.org/tmux-plugins/tpm)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/ee460a630ae6411181a4c7116ce1c273)](https://app.codacy.com/gh/slange-dev/tpm/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 
 Installs and loads `tmux` plugins.
 
