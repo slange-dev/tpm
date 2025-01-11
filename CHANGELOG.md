@@ -1,6 +1,7 @@
 # Changelog
 
 ### master
+- Add GitHub workflow "codacy_scan.yml", to analyse the code quality. 
 
 ### v3.1.0, 2023-01-03
 - upgrade to new version of `tmux-test`
