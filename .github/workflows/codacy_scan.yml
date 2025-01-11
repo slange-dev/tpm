@@ -27,7 +27,7 @@ on:
     # Day of month: *
     # Month: *
     # Day of week: *
-    - cron: '00 24 * * *'
+    - cron: '0 0 * * *'
 
 permissions:
   contents: read
